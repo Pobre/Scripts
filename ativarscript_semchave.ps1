@@ -1,3 +1,7 @@
+# Este script ativa o Windows (eram usados dois Windows na época, 7 e 10)
+# Depois era configurado o nome do computador para ser identificado na rede
+# E por fim, os computadores eram inseridos no domínio da rede.
+# Este era específico para Windows de licença Retail (KMS ou Volume)
 $domain = Read-Host -Prompt "Qual dominio? aluno ou adm"
 
 #$Computer = [ADSI]"WinNT://$Env:COMPUTERNAME,Computer"
